@@ -26,7 +26,7 @@ const AddStudent = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:5000/students', student)
+    axios.post('https://student-management-system-buv9.onrender.com/students', student)
       .then(() => navigate('/students'))
       .catch(err => console.error(err));
   };

@@ -18,7 +18,7 @@ const EditStudent = () => {
   });
 
   useEffect(() => {
-    axios.get(`http://localhost:5000/students/${id}`)
+    axios.get(`https://student-management-system-buv9.onrender.com/students/${id}`)
       .then(res => {
         // Convert dob to yyyy-mm-dd format for date input
         const fetched = res.data;
@@ -38,7 +38,7 @@ const EditStudent = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.put(`http://localhost:5000/students/${id}`, student)
+    axios.put(`https://student-management-system-buv9.onrender.com/students/${id}`, student)
       .then(() => navigate('/students'))
       .catch(err => console.error(err));
   };
