@@ -1,0 +1,130 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  input[type="date"],
+  button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .actions button {
+    width: 48%;
+    margin: 1%;
+  }
+  .button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .action-btn {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .edit-btn {
+    background-color: #4CAF50;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+  }
+  
+  .edit-btn:hover {
+    background-color: #45a049;
+    box-shadow: 0 0 5px #45a049;
+  }
+  
+  .delete-btn:hover {
+    background-color: #d32f2f;
+    box-shadow: 0 0 5px #d32f2f;
+  }
+  .container {
+    max-width: 95%;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    overflow-x: auto; /* Important for mobile/table */
+  }
+  
+  table {
+    width: 100%; /* Full width inside container */
+    border-collapse: collapse;
+    margin-top: 20px;
+    table-layout: auto; /* Important to fit content */
+  }
+  
+  thead th {
+    white-space: nowrap;
+  }
+   
